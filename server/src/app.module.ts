@@ -7,7 +7,6 @@ import { ConfigModule } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
 import { TasksController } from './tasks/tasks.controller';
 import { LoginController } from './login/login.controller';
-import config from './config/keys';
 
 @Module({
   imports: [
