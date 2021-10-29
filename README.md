@@ -1,8 +1,8 @@
-# BrokerLift Coding assement
+# BrokerLift Coding assessment
 
 `Connor Fitzgerald`
 
-This is the repo for the brokerlift coding assesment
+This is the repo for the brokerlift coding assessment
 
 ## Setup
 
@@ -18,15 +18,15 @@ Once the repo has been cloned you can follow the `Server` setup.
 
 ## Project setup
 
-This is the setup for the server sitde of the brokerlift coding assesment
+This is the setup for the server side of the brokerlift coding assessment
 
-Once you have cloned the repo yous should start with the server and run the following command in the terminal to make sure you have all neccecary depencecies.
+Once you have cloned the repo you should run the following command in the terminalfrom the server `root` to make sure you have all necessary dependencies.
 
 ```bash
 $ npm install
 ```
 
-Once that is done you should create a `.env` in the `root` of the client folder. Inside you need to create the following variable: (See email for connection string)
+Once that is done you should create a `.env` file in the `root` of the server folder. Inside you need to create the following variable: (See email for connection string)
 
 ```
 MONGO_URL=<connection_string>
@@ -44,15 +44,15 @@ $ npm run start
 
 ## Project setup
 
-This is the setup for the client sitde of the brokerlift coding assesment
+This is the setup for the client side of the brokerlift coding assessment
 
-Once you have cloned the repo and setup the server porotion, you should run the following command in the terminal to make sure you have all neccecary depencecies.
+Once you have cloned the repo and setup the server porotion, you should run the following command in the terminal from the client `root` to make sure you have all necessary dependencies.
 
 ```bash
 $ npm install
 ```
 
-Once that is done you should create a `.env` in the `root` of the client folder. Inside you need to create the following variable:
+Once that is done you should create a `.env` file in the `root` of the client folder. Inside you need to create the following variable:
 
 ```
 VUE_APP_API_URL=http://127.0.0.1:3000
